@@ -1,0 +1,32 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* 根据需要调整 */
+    margin: auto;
+    text-align: center;
+}
+
+.background {
+    width: 100%;
+    height: auto;
+}
+
+.clock {
+    position: absolute;
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Arial', sans-serif;
+    font-size: 25px; /* 调整字体大小 */
+    color: #000000;
+    white-space: nowrap; /* 防止文本换行 */
+}

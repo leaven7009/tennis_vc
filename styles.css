@@ -22,11 +22,12 @@ body, html {
 
 .clock {
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Arial', sans-serif;
-    font-size: 25px; /* 调整字体大小 */
+    font-size: 35px; /* 调整字体大小 */
+    font-weight: bold; /* 添加此行，实现整体字体加粗 */
     color: #000000;
     line-height: 1.3; /* 增加行距，避免两行文字重叠贴紧 */
     text-align: center; /* 确保换行后两行文字居中对齐 */

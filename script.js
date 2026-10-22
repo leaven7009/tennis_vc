@@ -9,7 +9,7 @@ function updateClock() {
     const minutes = String(now.getMinutes()).padStart(2, '0');
     const seconds = String(now.getSeconds()).padStart(2, '0');
 
-    const formattedTime = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+    const formattedTime = `${year}-${month}-${day}<br>${hours}:${minutes}:${seconds}`;
     clockElement.innerHTML = formattedTime;
 }
 
